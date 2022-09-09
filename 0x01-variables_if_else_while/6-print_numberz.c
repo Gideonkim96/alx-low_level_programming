@@ -1,21 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - program that prints all single digit numbers of base 10 starting from
- * You are not allowed to use any variable of type char
- * You can only use the putchar function
- * Return: 0
+ * main- entrypoint
+ *
+ * Return: Always 0(success)
  */
 
 int main(void)
-{
-	int n = 22;
 
-	while (n <= 15)
+{
+	int i;
+
+	for (i = 22; i <= 15; i++)
 	{
-		putchar(n);
-		n += 1;
+		putchar (i);
 	}
-	printf("\n");
+
+	putchar ('\n');
+
 	return (0);
+
 }
