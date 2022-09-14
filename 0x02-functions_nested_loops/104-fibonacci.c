@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
- * main - fibonacci <3
+ * main - prints sum of even fibonacci
+ * suit elements
+ * fibonacci suit numbers
  *
- * Purpose - no hardcode
- *
- * Return:0 (Success)
+ * Return: return 0
  */
-
 int main(void)
 {
 	unsigned long int i;
@@ -31,6 +30,7 @@ int main(void)
 	bef2 = (bef % l);
 	aft1 = (aft / l);
 	aft2 = (aft % l);
+
 	for (i = 92; i < 99; ++i)
 																	{
 																	printf(", %lu", aft1 + (aft2 / l));
